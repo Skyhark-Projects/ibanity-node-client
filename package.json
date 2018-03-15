@@ -1,0 +1,32 @@
+{
+    "name": "ibanity",
+    "version": "0.1.0",
+    "description": "Ibanity API connector",
+    "main": "lib/client.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Vandamme Sacha <sacha@skyhark.be> (https://www.skyhark.be)",
+    "license": "MIT",
+    "dependencies": {
+        "request": "^2.85.0",
+        "request-promise": "^4.2.2"
+    },
+    "engines": {
+        "node": ">=7.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Skyhark-Projects/ibanity-node-client.git"
+    },
+    "keywords": [
+        "iBanity",
+        "PSD2",
+        "Skyhark",
+        "Client"
+    ],
+    "bugs": {
+        "url": "https://github.com/Skyhark-Projects/ibanity-node-client/issues"
+    },
+    "homepage": "https://github.com/Skyhark-Projects/ibanity-node-client"
+}
