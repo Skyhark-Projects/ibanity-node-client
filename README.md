@@ -9,7 +9,7 @@ The NodeJs wrapper follows the same standard as the officiel Rubby wrapper avail
 ## Installation
 
 ```
-npm install "ibanity"
+npm install ibanity
 ```
 
 ### Requirements
@@ -23,7 +23,7 @@ npm install "ibanity"
     Ibanity must be configured using the details of your application on the [Ibanity developer portal](https://developer.ibanity.com).
 
     ```node
-    const Ibanity = require('../lib');
+    const Ibanity = require('ibanity');
 
     const ibanity = new Ibanity({
         cert:           'path to cert or certificate buffer',
